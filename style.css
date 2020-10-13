@@ -1,0 +1,70 @@
+
+
+body{
+
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  background-image: url("https://images.unsplash.com/photo-1501503069356-3c6b82a17d89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80");
+  justify-content: center;
+
+
+  align-items: center;
+  color: red;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+h1, h2{
+  font-size: 60px;
+  margin: 5px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+img {
+  width: 100px;
+}
+
+td {
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+ul , p , table{
+  margin: 0px
+}
+
+p{
+  color: white
+}
+
+footer{
+  font-size: 20px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+}
+
+#gameBoard{
+  display: flex;
+  justify-content: center;
+  /* height: 500px;
+  width: 500px; */
+}
+
+.rules{
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 25px;
+  padding: 5px 15px 5px 10px;
+}
+
+.energy {
+  font-size: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+}
+
+/*
+td:hover{
+  cursor: url(protonStream.jpg), auto;
+}  */

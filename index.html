@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <title>Ghostbuster Ghost Hunt</title>
+  </head>
+  <body>
+​<nav><a href="#Footer">Footer</a>
+​
+</nav>
+<h1> GhostBusters</h1>
+<h2>Who You Gonna Call?</h2>
+<img style="width:300px" src="ghostbusters.png" alt="Ghostbusters Logo">
+​
+<div class="rules">
+  <ul>
+    <li>Rule 1: Trap the Ghost</li>
+    <li>Rule 2: Avoid getting slimmed by Slimer</li>
+    <li>Rule 3: Avoid running out of Plasma Energy</li>
+    <li>Rule 4: Don't cross the Streams</li>
+  </ul>
+</div>
+​
+<div class="energy">
+  <p>Energy Level: <span id="currentCount">10</span></p>
+</div>
+
+
+    <table id="gameBoard" border=1>
+      <tr>
+        <td id="1" onclick="locationCheck(1)"> <img  src="closeBook.png"></td>
+        <td id="2" onclick="locationCheck(2)"> <img  src="closeBook.png"></td>
+        <td id="3" onclick="locationCheck(3)"> <img  src="closeBook.png"></td>
+        <td id="4" onclick="locationCheck(4)"> <img  src="closeBook.png"></td>
+​
+      </tr>
+      <tr>
+        <td id="5" onclick="locationCheck(5)"> <img  src="closeBook.png"></td>
+        <td id="6" onclick="locationCheck(6)"> <img  src="closeBook.png"></td>
+        <td id="7" onclick="locationCheck(7)"> <img  src="closeBook.png"></td>
+        <td id="8" onclick="locationCheck(8)"> <img  src="closeBook.png"></td>
+​
+      </tr>
+      <tr>
+        <td id="9" onclick="locationCheck(9)"> <img  src="closeBook.png"></td>
+        <td id="10" onclick="locationCheck(10)"> <img  src="closeBook.png"></td>
+        <td id="11" onclick="locationCheck(11)"> <img  src="closeBook.png"></td>
+        <td id="12" onclick="locationCheck(12)"> <img  src="closeBook.png"></td>
+      <tr>
+        <td id="13" onclick="locationCheck(13)"> <img  src="closeBook.png"></td>
+        <td id="14" onclick="locationCheck(14)"> <img  src="closeBook.png"></td>
+        <td id="15" onclick="locationCheck(15)"> <img  src="closeBook.png"></td>
+        <td id="16" onclick="locationCheck(16)"> <img  src="closeBook.png"></td>
+      </tr>
+    </table>
+​
+​<button type="button" onclick="location.reload()">Restart Game </button>
+
+​
+<footer id=#Footer>by Carla and Chris(Jeremy)</footer>
+
+<a href="https://en.wikipedia.org/wiki/Ghostbusters" target="_blank">Origin Story</a>
+
+<script type="text/javascript" src="treasureHunt.js"></script>
+
+  </body>
+</html>
